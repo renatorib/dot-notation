@@ -1,0 +1,22 @@
+{
+  "name": "dot-notation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dot-notation",
+    "dot",
+    "notation",
+    "dot",
+    "object",
+    "dot",
+    "dot",
+    "object",
+    "notation"
+  ],
+  "author": "Renato Ribeiro",
+  "license": "ISC"
+}
