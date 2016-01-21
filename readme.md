@@ -1,7 +1,7 @@
 # Dot Notation
-> Lightweight lib without dependecies to deep access an object with dot notation.
+Lightweight lib without dependecies to deep access an object with dot notation.
 
-## Install:
+## Install
 **npm package**
 ```shell
 npm install dot-notation --save
