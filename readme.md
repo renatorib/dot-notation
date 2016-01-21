@@ -45,28 +45,32 @@ console.log(me.get('name.first'));
 
 ## API Reference
 
-### set
 ```js
-DotNotation.set(obj, path, value);
+var DN = require('dot-notation');
 ```
 
-### get
+### set(obj, path, value)
 ```js
-DotNotation.get(obj, path);
+DN.set(obj, 'foo.bar', 'baz');
 ```
 
-### delete
+### get(obj, path)
 ```js
-DotNotation.delete(obj, path);
+DN.get(obj, 'foo.bar');
 ```
 
-### copy
+### delete(obj, path)
 ```js
-DotNotation.delete(src_obj, src_path, dest_obj, dest_path);
+DN.delete(obj, 'foo.bar');
 ```
 
-### move
+### copy(src_obj, src_path, dest_obj, dest_path)
 ```js
-DotNotation.delete(src_obj, src_path, dest_obj, dest_path);
+DN.copy(obj, 'bar.foo', obj2, 'bar.baz');
+```
+
+### move(src_obj, src_path, dest_obj, dest_path)
+```js
+DN.move(obj, 'bar.baz', obj2, 'bar.foo');
 ```
 
